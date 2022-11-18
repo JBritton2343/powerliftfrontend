@@ -9,8 +9,9 @@ export default class Login extends Component {
   render() {
     return (
       <div>
+        <img src="src\logo\logopowerlift.jpg"></img>
         <h4 className="m-1 p-2 border-bottom">Login</h4>
-        <img src="src\logo\logopowerlift.jpg" class="img-fluid rounded float-start" alt="logo" />
+        
         {/* Email starts */}
         <div className="form-group form-row">
           <label className="col-lg-4">Email:</label>
